@@ -1,6 +1,10 @@
-# nodejs
-A minimal Node.js web application.
+## Setup
 
-For a step-by-step guide to deploying on [Railway](https://railway.app/?referralCode=alphasec), see [this](https://alphasec.io/how-to-deploy-a-nodejs-app-on-railway/) post, or click the button below.
+- run following to add all nodemodules
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/new/template/Abo1zu?referralCode=alphasec)
+```bash
+npm i
+```
+
+- add `.env.local` file with env variables mentioned in `.env.example`
+- add gcsServiceKey.json with Google Cloud Storage Service Key
